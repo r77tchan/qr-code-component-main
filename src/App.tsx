@@ -1,10 +1,12 @@
+import qrCodeImage from "../images/image-qr-code.png";
+
 export default function App() {
   return (
     <div className="flex min-h-screen items-center bg-[#D5E1EF] py-8">
       <div className="mx-auto w-full max-w-80 rounded-2xl bg-white">
         <div className="p-4">
           <img
-            src="images/image-qr-code.png"
+            src={qrCodeImage}
             alt=""
             className="block w-full rounded-2xl"
           />
